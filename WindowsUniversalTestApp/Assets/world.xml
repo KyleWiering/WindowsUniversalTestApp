@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<world>
+  <itemtemplate></itemtemplate>
+  <items></items>
+  <roomTemplate>
+    <room x="0" y="0" z="0">
+      <basicinfo>Template Room</basicinfo>
+      <description>This is a template room, it isn't to be used in the game, but it just sits here for reference of new rooms.</description>
+      <availablemovement>w
+        <direction open="false" locked="false" />
+      </availablemovement>
+    </room>
+  </roomTemplate>
+  <rooms>
+    <room x="1" y="1" z="0">
+      <basicinfo>A small room with a cot and a door</basicinfo>
+      <description>You woke from a deep slumber and got out of the cot, with no recollection of how you got here. A flourescent light casts shadows to the corners of the room.  There is a door to the east. </description>
+      <doors>
+        <west>
+          <open value="false" />
+          <locked value="false" />
+        </west>
+      </doors>
+    </room>
+  </rooms>  
+</world>
